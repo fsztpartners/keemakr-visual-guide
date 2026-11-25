@@ -1,0 +1,15 @@
+{
+  "passed": 9,
+  "checks": [
+    "Chapter search, no-results feedback and clear restore",
+    "All 24 engineering disclosures open and close",
+    "Architecture selection works from keyboard",
+    "Clinic and sales inventory selection",
+    "Eight journey/outcome combinations and backward navigation",
+    "Critical-path arithmetic, separate human wait, invalid input and reset",
+    "Gap priority/type intersection and roadmap selection",
+    "Print includes filtered chapters, all gap records and engineering details; screen state restores",
+    "Mobile calculator layout and reduced motion"
+  ],
+  "errors": []
+}

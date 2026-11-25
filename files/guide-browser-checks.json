@@ -1,0 +1,751 @@
+{
+  "desktop": {
+    "title": "Keemakr business operator explained",
+    "words": 16050,
+    "headings": [
+      "Keemakr helps people complete business work",
+      "Follow one clinic enquiry to a real visit",
+      "Follow research through approved outreach",
+      "Use ordinary words without losing precision",
+      "Separate the shared platform from business code",
+      "Read the inventory as scope, not a readiness score",
+      "ClinicOS joins conversations, operations and clinical services",
+      "Sales is an evidence pipeline with a human placement gate",
+      "Installation is a sequence of readiness decisions",
+      "Follow a message until the business result is known",
+      "Recognize conversation, named action and tracked work",
+      "The model proposes; server checks permit the action",
+      "Know which system owns each fact",
+      "Give people a visible place in the workflow",
+      "Recurring work needs fairness and recovery",
+      "Protect each business and each person's purpose",
+      "Map health information across the whole journey",
+      "Treat an unknown external outcome as its own state",
+      "Read test evidence without turning limitations into defects",
+      "Measure what the person waits for",
+      "Use a critical-path model to understand delay",
+      "Investigate chat and tool scenarios separately",
+      "Optimize the measured bottleneck while preserving trust",
+      "Turn gaps into gated work with evidence",
+      "Trace each claim to its owning source"
+    ],
+    "diagrams": 1,
+    "disclosures": 41,
+    "duplicateIds": [],
+    "unnamedInputs": [],
+    "brokenAnchors": [],
+    "horizontalOverflow": false,
+    "controls": [
+      {
+        "tag": "INPUT",
+        "id": "chapter-search",
+        "text": "",
+        "type": "search",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "clear-search",
+        "text": "Clear",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "detail-toggle",
+        "text": "Engineering detail: closed",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "print-guide",
+        "text": "Print / save full guide as PDF",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "01People and channels",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "02Kee conversation",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "03Core authority",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "04Business department",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "05Records and providers",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "pack-view",
+        "text": "Both departmentsClinicOSSales",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "journey-kind",
+        "text": "Clinic consultationSales pipeline",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "journey-scenario",
+        "text": "Successful pathWaiting for human reviewProvider timeout after dispatchAuthority ",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "step-prev",
+        "text": "Previous step",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "step-next",
+        "text": "Next step",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-intake",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-contextA",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-contextB",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-model",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-tool",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-verify",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-output",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-human",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Reset assumptions",
+        "type": "reset",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "1. Establish the baselineVersions, compatible contracts, actual policy bindings ",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "2. Prove authorized outcomesFault-test writes, exact review, identity and staff ",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "3. Measure chat and toolsClient-visible milestones joined with safe server, pack",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "4. Improve the dominant waitOne experiment at a time; checkpoints and bounded co",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "5. Generalize what is soundExplicit domain policy, onboarding contracts and cros",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "gap-severity",
+        "text": "All prioritiesHighMedium",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "gap-type",
+        "text": "All typesConfirmed source defectDesign riskMissing verificationProposed improvem",
+        "type": "select-one",
+        "label": null
+      }
+    ]
+  },
+  "mobile": {
+    "title": "Keemakr business operator explained",
+    "words": 16050,
+    "headings": [
+      "Keemakr helps people complete business work",
+      "Follow one clinic enquiry to a real visit",
+      "Follow research through approved outreach",
+      "Use ordinary words without losing precision",
+      "Separate the shared platform from business code",
+      "Read the inventory as scope, not a readiness score",
+      "ClinicOS joins conversations, operations and clinical services",
+      "Sales is an evidence pipeline with a human placement gate",
+      "Installation is a sequence of readiness decisions",
+      "Follow a message until the business result is known",
+      "Recognize conversation, named action and tracked work",
+      "The model proposes; server checks permit the action",
+      "Know which system owns each fact",
+      "Give people a visible place in the workflow",
+      "Recurring work needs fairness and recovery",
+      "Protect each business and each person's purpose",
+      "Map health information across the whole journey",
+      "Treat an unknown external outcome as its own state",
+      "Read test evidence without turning limitations into defects",
+      "Measure what the person waits for",
+      "Use a critical-path model to understand delay",
+      "Investigate chat and tool scenarios separately",
+      "Optimize the measured bottleneck while preserving trust",
+      "Turn gaps into gated work with evidence",
+      "Trace each claim to its owning source"
+    ],
+    "diagrams": 1,
+    "disclosures": 41,
+    "duplicateIds": [],
+    "unnamedInputs": [],
+    "brokenAnchors": [],
+    "horizontalOverflow": false,
+    "controls": [
+      {
+        "tag": "INPUT",
+        "id": "chapter-search",
+        "text": "",
+        "type": "search",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "clear-search",
+        "text": "Clear",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "detail-toggle",
+        "text": "Engineering detail: closed",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "print-guide",
+        "text": "Print / save full guide as PDF",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "01People and channels",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "02Kee conversation",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "03Core authority",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "04Business department",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "05Records and providers",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "pack-view",
+        "text": "Both departmentsClinicOSSales",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "journey-kind",
+        "text": "Clinic consultationSales pipeline",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "journey-scenario",
+        "text": "Successful pathWaiting for human reviewProvider timeout after dispatchAuthority ",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "step-prev",
+        "text": "Previous step",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "step-next",
+        "text": "Next step",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-intake",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-contextA",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-contextB",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-model",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-tool",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-verify",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-output",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-human",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Reset assumptions",
+        "type": "reset",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "1. Establish the baselineVersions, compatible contracts, actual policy bindings ",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "2. Prove authorized outcomesFault-test writes, exact review, identity and staff ",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "3. Measure chat and toolsClient-visible milestones joined with safe server, pack",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "4. Improve the dominant waitOne experiment at a time; checkpoints and bounded co",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "5. Generalize what is soundExplicit domain policy, onboarding contracts and cros",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "gap-severity",
+        "text": "All prioritiesHighMedium",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "gap-type",
+        "text": "All typesConfirmed source defectDesign riskMissing verificationProposed improvem",
+        "type": "select-one",
+        "label": null
+      }
+    ]
+  },
+  "staticContent": {
+    "title": "Keemakr business operator explained",
+    "words": 16031,
+    "headings": [
+      "Keemakr helps people complete business work",
+      "Follow one clinic enquiry to a real visit",
+      "Follow research through approved outreach",
+      "Use ordinary words without losing precision",
+      "Separate the shared platform from business code",
+      "Read the inventory as scope, not a readiness score",
+      "ClinicOS joins conversations, operations and clinical services",
+      "Sales is an evidence pipeline with a human placement gate",
+      "Installation is a sequence of readiness decisions",
+      "Follow a message until the business result is known",
+      "Recognize conversation, named action and tracked work",
+      "The model proposes; server checks permit the action",
+      "Know which system owns each fact",
+      "Give people a visible place in the workflow",
+      "Recurring work needs fairness and recovery",
+      "Protect each business and each person's purpose",
+      "Map health information across the whole journey",
+      "Treat an unknown external outcome as its own state",
+      "Read test evidence without turning limitations into defects",
+      "Measure what the person waits for",
+      "Use a critical-path model to understand delay",
+      "Investigate chat and tool scenarios separately",
+      "Optimize the measured bottleneck while preserving trust",
+      "Turn gaps into gated work with evidence",
+      "Trace each claim to its owning source"
+    ],
+    "diagrams": 1,
+    "disclosures": 41,
+    "duplicateIds": [],
+    "unnamedInputs": [],
+    "brokenAnchors": [],
+    "horizontalOverflow": false,
+    "controls": [
+      {
+        "tag": "INPUT",
+        "id": "chapter-search",
+        "text": "",
+        "type": "search",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "clear-search",
+        "text": "Clear",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "detail-toggle",
+        "text": "Engineering detail: open",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "print-guide",
+        "text": "Print / save full guide as PDF",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "01People and channels",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "02Kee conversation",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "03Core authority",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "04Business department",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "05Records and providers",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "pack-view",
+        "text": "Both departmentsClinicOSSales",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "journey-kind",
+        "text": "Clinic consultationSales pipeline",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "journey-scenario",
+        "text": "Successful pathWaiting for human reviewProvider timeout after dispatchAuthority ",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "step-prev",
+        "text": "Previous step",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "step-next",
+        "text": "Next step",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-intake",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-contextA",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-contextB",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-model",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-tool",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-verify",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-output",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "INPUT",
+        "id": "lat-human",
+        "text": "",
+        "type": "number",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Reset assumptions",
+        "type": "reset",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "1. Establish the baselineVersions, compatible contracts, actual policy bindings ",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "2. Prove authorized outcomesFault-test writes, exact review, identity and staff ",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "3. Measure chat and toolsClient-visible milestones joined with safe server, pack",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "4. Improve the dominant waitOne experiment at a time; checkpoints and bounded co",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "5. Generalize what is soundExplicit domain policy, onboarding contracts and cros",
+        "type": "button",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "gap-severity",
+        "text": "All prioritiesHighMedium",
+        "type": "select-one",
+        "label": null
+      },
+      {
+        "tag": "SELECT",
+        "id": "gap-type",
+        "text": "All typesConfirmed source defectDesign riskMissing verificationProposed improvem",
+        "type": "select-one",
+        "label": null
+      }
+    ]
+  },
+  "errors": [],
+  "remoteRequests": []
+}

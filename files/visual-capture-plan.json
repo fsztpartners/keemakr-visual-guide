@@ -1,0 +1,8 @@
+[
+  {"scene":"registries","title":"Two catalogues: Eve tools and installed business actions","alt":"Discovery returns an action contract; invocation goes through separate authority checks.","animate":true},
+  {"scene":"files","title":"How a non-Eve helper becomes running business code","alt":"Imports, registries and routes connect source files to an actual request; arbitrary files are not automatically model tools.","animate":true},
+  {"scene":"event-gap","title":"A declared event with no executable conversion path","alt":"Current Sales checkout event declaration reaches missing handler wiring; the responder stub does not persist a conversion.","animate":true,"stepLimit":3},
+  {"scene":"uncertain","title":"A timeout after the provider has already acted","alt":"The provider can complete a write before its response is lost; reconcile the outcome before safely retrying.","animate":true},
+  {"scene":"booking","title":"Three entry points share one booking implementation","alt":"Patient tool, staff action and booking page reach shared booking code under different authority boundaries.","animate":false},
+  {"scene":"eve-tools","title":"What the model sees and what the runtime executes","alt":"Authored static and lifecycle-resolved tool definitions expose controlled schemas; code and framework defaults have separate roles.","animate":false}
+]

@@ -1,0 +1,113 @@
+{
+  "variantsChecked": 82,
+  "variantStepsChecked": 356,
+  "mermaidDiagrams": 5,
+  "pngStills": 9,
+  "gifLoops": 7,
+  "packIdentityChecks": 8,
+  "decodedMedia": [
+    {
+      "title": "Two catalogues: Eve tools and installed business actions",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "Two catalogues: Eve tools and installed business actions",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    },
+    {
+      "title": "How a non-Eve helper becomes running business code",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "How a non-Eve helper becomes running business code",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    },
+    {
+      "title": "A declared event with no executable conversion path",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "A declared event with no executable conversion path",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    },
+    {
+      "title": "A timeout after the provider has already acted",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "A timeout after the provider has already acted",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    },
+    {
+      "title": "Three entry points share one booking implementation",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "What the model sees and what the runtime executes",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "One business setup contains many named actions [pack → capabilities]",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "One business setup contains many named actions [pack → capabilities]",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    },
+    {
+      "title": "One capability registry feeds the catalogue and the runtime",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "One capability registry feeds the catalogue and the runtime",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    },
+    {
+      "title": "Find an exact slot, then request its booking",
+      "kind": "still",
+      "width": 1147,
+      "height": 517
+    },
+    {
+      "title": "Find an exact slot, then request its booking",
+      "kind": "gif",
+      "width": 900,
+      "height": 406
+    }
+  ],
+  "keyboardInspectorAndSteps": true,
+  "finitePlayPauseReplay": true,
+  "oneGifAtATime": true,
+  "galleryCloseStopsMotion": true,
+  "oldClinicDayLink": true,
+  "printedScenes": 22,
+  "errors": []
+}

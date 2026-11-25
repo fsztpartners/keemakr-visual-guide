@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Two catalogues: Eve tools and installed business actions",
+    "alt": "Discovery returns an action contract; invocation goes through separate authority checks.",
+    "scene": "registries",
+    "still": "visual-media/registries.png",
+    "gif": "visual-media/registries.gif"
+  },
+  {
+    "title": "How a non-Eve helper becomes running business code",
+    "alt": "Imports, registries and routes connect source files to an actual request; arbitrary files are not automatically model tools.",
+    "scene": "activation",
+    "still": "visual-media/activation.png",
+    "gif": "visual-media/activation.gif"
+  },
+  {
+    "title": "A declared event with no executable conversion path",
+    "alt": "Current Sales checkout event declaration reaches missing handler wiring; the responder stub does not persist a conversion.",
+    "scene": "event-gap",
+    "still": "visual-media/event-gap.png",
+    "gif": "visual-media/event-gap.gif"
+  },
+  {
+    "title": "A timeout after the provider has already acted",
+    "alt": "The provider can complete a write before its response is lost; reconcile the outcome before safely retrying.",
+    "scene": "timeout",
+    "still": "visual-media/timeout.png",
+    "gif": "visual-media/timeout.gif"
+  },
+  {
+    "title": "Three entry points share one booking implementation",
+    "alt": "Patient tool, staff action and booking page reach shared booking code under different authority boundaries.",
+    "scene": "booking",
+    "still": "visual-media/booking.png"
+  },
+  {
+    "title": "What the model sees and what the runtime executes",
+    "alt": "Authored static and lifecycle-resolved tool definitions expose controlled schemas; code and framework defaults have separate roles.",
+    "scene": "eve-tools",
+    "still": "visual-media/eve-tools.png"
+  },
+  {
+    "title": "One business setup contains many named actions [pack \u2192 capabilities]",
+    "alt": "ClinicOS is the parent pack; clinic.find_times and clinic.book are two of its registered capabilities, alongside agents, Tables, screens and jobs.",
+    "scene": "pack-capabilities",
+    "still": "visual-media/pack-capabilities.png",
+    "gif": "visual-media/pack-capabilities.gif"
+  },
+  {
+    "title": "One capability registry feeds the catalogue and the runtime",
+    "alt": "A binding enters capabilities/implementations.ts, which supplies both generated entry.json metadata and the deployed invocation handler map.",
+    "scene": "capability-wiring",
+    "still": "visual-media/capability-wiring.png",
+    "gif": "visual-media/capability-wiring.gif"
+  },
+  {
+    "title": "Find an exact slot, then request its booking",
+    "alt": "The clinic.find_times result supplies exact appointment fields to clinic.book, which previews, awaits approval, rechecks and confirms the provider outcome.",
+    "scene": "capability-examples",
+    "still": "visual-media/capability-examples.png",
+    "gif": "visual-media/capability-examples.gif"
+  }
+]

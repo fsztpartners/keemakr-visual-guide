@@ -1,0 +1,20 @@
+{
+  "name": "keemakr-visual-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive, code-grounded Keemakr pack and capability explainer",
+  "engines": { "node": ">=20.10" },
+  "scripts": {
+    "serve": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "build:guide": "python3 files/build_visual_guide.py",
+    "build:site": "python3 scripts/build_site.py",
+    "build": "npm run build:guide && npm run build:site",
+    "render:mermaid": "node files/render_guide_mermaid.cjs",
+    "capture:media": "node files/capture-visual-guide.cjs files/visual-capture-plan.json && node files/capture-visual-guide.cjs files/pack-capability-capture-plan.json --append",
+    "test": "node files/verify-visual-guide.cjs && node files/verify-visual-variants.cjs"
+  },
+  "devDependencies": {
+    "mermaid": "11.17.2",
+    "playwright": "1.65.1"
+  }
+}

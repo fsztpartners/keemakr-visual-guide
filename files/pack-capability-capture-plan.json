@@ -1,0 +1,5 @@
+[
+  {"scene":"pack-capabilities","title":"One business setup contains many named actions [pack → capabilities]","alt":"ClinicOS is the parent pack; clinic.find_times and clinic.book are two of its registered capabilities, alongside agents, Tables, screens and jobs.","animate":true},
+  {"scene":"capability-wiring","title":"One capability registry feeds the catalogue and the runtime","alt":"A binding enters capabilities/implementations.ts, which supplies both generated entry.json metadata and the deployed invocation handler map.","animate":true},
+  {"scene":"capability-examples","title":"Find an exact slot, then request its booking","alt":"The clinic.find_times result supplies exact appointment fields to clinic.book, which previews, awaits approval, rechecks and confirms the provider outcome.","animate":true}
+]

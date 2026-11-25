@@ -1,0 +1,176 @@
+{
+  "sceneCount": 22,
+  "stepsChecked": 98,
+  "scenes": [
+    {
+      "id": "pack-capabilities",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "capability-contract",
+      "steps": 5,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "capability-wiring",
+      "steps": 5,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "capability-lifecycle",
+      "steps": 6,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "capability-examples",
+      "steps": 6,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "registries",
+      "steps": 5,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "docs-code",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "business",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "anatomy",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "activation",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "eve-tools",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "session",
+      "steps": 5,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "callbacks",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "patient",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "booking",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "sales",
+      "steps": 5,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "event-gap",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "permission",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "latency",
+      "steps": 5,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "timeout",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "optimize",
+      "steps": 4,
+      "seekChangesDrawing": true
+    },
+    {
+      "id": "plan",
+      "steps": 4,
+      "seekChangesDrawing": true
+    }
+  ],
+  "structure": {
+    "duplicateIds": [],
+    "brokenAnchors": [],
+    "unnamedControls": [],
+    "horizontalOverflow": false,
+    "images": [
+      {
+        "alt": "Discovery returns an action contract; invocation goes through separate authority checks.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "Imports, registries and routes connect source files to an actual request; arbitrary files are not automatically model tools.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "Current Sales checkout event declaration reaches missing handler wiring; the responder stub does not persist a conversion.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "The provider can complete a write before its response is lost; reconcile the outcome before safely retrying.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "Patient tool, staff action and booking page reach shared booking code under different authority boundaries.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "Authored static and lifecycle-resolved tool definitions expose controlled schemas; code and framework defaults have separate roles.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "ClinicOS is the parent pack; clinic.find_times and clinic.book are two of its registered capabilities, alongside agents, Tables, screens and jobs.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "A binding enters capabilities/implementations.ts, which supplies both generated entry.json metadata and the deployed invocation handler map.",
+        "embedded": true,
+        "complete": false
+      },
+      {
+        "alt": "The clinic.find_times result supplies exact appointment fields to clinic.book, which previews, awaits approval, rechecks and confirms the provider outcome.",
+        "embedded": true,
+        "complete": false
+      }
+    ]
+  },
+  "noScript": {
+    "visibleText": 20814,
+    "diagrams": 45,
+    "reference": true
+  },
+  "errors": [],
+  "remoteRequests": []
+}

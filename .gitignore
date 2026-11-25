@@ -1,0 +1,13 @@
+.DS_Store
+.vercel/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+keemakr-guide-complete.zip
+files/visual-media/*-frames/

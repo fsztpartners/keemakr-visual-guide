@@ -1,0 +1,15 @@
+{
+  "scene_count": 16,
+  "default_steps": 68,
+  "variants": 46,
+  "mermaid_svgs": 3,
+  "embedded_pngs": 6,
+  "embedded_gifs": 4,
+  "duplicate_ids_including_no_script": [],
+  "broken_anchors": [],
+  "external_resources": [],
+  "state_reference_errors": [],
+  "max_summary_words": 18,
+  "max_step_caption_words": 15,
+  "html_bytes": 6182138
+}

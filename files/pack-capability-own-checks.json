@@ -1,0 +1,17 @@
+{
+  "scenes": 22,
+  "default_steps": 98,
+  "variant_choices": 82,
+  "mermaid_rendered": 5,
+  "embedded_pngs": 9,
+  "embedded_gifs": 7,
+  "max_caption_words_all_variants": 16,
+  "duplicate_ids": [],
+  "broken_internal_anchors": [],
+  "external_resource_loads": [],
+  "state_reference_errors": [],
+  "default_scene": "pack-capabilities",
+  "code_docs_sha": "678902df0accca44133c4b5a3a855839fbe50d67",
+  "html_bytes": 12677526,
+  "source_of_truth": "owning code; docs supporting only"
+}
